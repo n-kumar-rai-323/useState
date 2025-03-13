@@ -2,6 +2,7 @@ import './App.css'
 import Background from './Background'
 import Form_input from './Form_input'
 import Manage from './Manage'
+import MortgageCalculator from './MortgageCalculator'
 import Toggle from './Toggle'
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <br />
       <br />
       <Background/>
+      <br />
+      <br />
+      <MortgageCalculator/>
     </>
   )
 }
